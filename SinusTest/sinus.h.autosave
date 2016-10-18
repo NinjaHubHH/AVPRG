@@ -1,0 +1,19 @@
+#ifndef SINUS_H
+#define SINUS_H
+
+class Sinus{
+public:
+    Sinus();
+    ~Sinus();
+    float getValue();
+    void setAmplitude(float amplitude);
+    void setFrequency();
+    float sawtooth();
+    float triangle();
+    float square();
+private:
+    int index;
+    float amplitude;
+};
+
+#endif
